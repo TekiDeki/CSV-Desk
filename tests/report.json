@@ -1,0 +1,910 @@
+{
+  "status": "passed",
+  "passed": 224,
+  "total": 224,
+  "error": null,
+  "checks": [
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "first visit is English even with Romanian browser locale",
+      "passed": true
+    },
+    {
+      "name": "initial document title is correct",
+      "passed": true
+    },
+    {
+      "name": "CSP forbids eval and external connections",
+      "passed": true
+    },
+    {
+      "name": "no external scripts or stylesheets",
+      "passed": true
+    },
+    {
+      "name": "basic CRLF CSV parses",
+      "passed": true
+    },
+    {
+      "name": "quoted semicolon parses",
+      "passed": true
+    },
+    {
+      "name": "escaped quotes parse",
+      "passed": true
+    },
+    {
+      "name": "newline inside quotes is preserved",
+      "passed": true
+    },
+    {
+      "name": "trailing newline adds no phantom row",
+      "passed": true
+    },
+    {
+      "name": "trailing delimiter preserves empty field",
+      "passed": true
+    },
+    {
+      "name": "blank records are preserved",
+      "passed": true
+    },
+    {
+      "name": "classic CR line endings parse",
+      "passed": true
+    },
+    {
+      "name": "semicolon delimiter is detected",
+      "passed": true
+    },
+    {
+      "name": "tab delimiter is detected",
+      "passed": true
+    },
+    {
+      "name": "pipe delimiter is detected",
+      "passed": true
+    },
+    {
+      "name": "comma wins over pipe characters in values",
+      "passed": true
+    },
+    {
+      "name": "pipe wins over comma characters in values",
+      "passed": true
+    },
+    {
+      "name": "semicolon wins over pipe characters in values",
+      "passed": true
+    },
+    {
+      "name": "quoted pipes do not change the real comma delimiter",
+      "passed": true
+    },
+    {
+      "name": "TSV wins over comma characters in values",
+      "passed": true
+    },
+    {
+      "name": "unclosed quote produces an honest error",
+      "passed": true
+    },
+    {
+      "name": "empty input has no matrix rows",
+      "passed": true
+    },
+    {
+      "name": "all four delimiters survive quoted CRLF round trips",
+      "passed": true
+    },
+    {
+      "name": "visible encoding text states the UTF-16 BOM requirement",
+      "passed": true
+    },
+    {
+      "name": "all translation dictionaries contain every English key",
+      "passed": true
+    },
+    {
+      "name": "translation dictionaries have identical key counts",
+      "passed": true
+    },
+    {
+      "name": "every static translation reference exists",
+      "passed": true
+    },
+    {
+      "name": "Serbian Cyrillic contains no Russian-only letters",
+      "passed": true
+    },
+    {
+      "name": "translations have no empty values",
+      "passed": true
+    },
+    {
+      "name": "no long English translation is copied unchanged",
+      "passed": true
+    },
+    {
+      "name": "R31 visible copy contains no em dash or mdash entity",
+      "passed": true
+    },
+    {
+      "name": "support URL uses the required lowercase PayPal host",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "real file input detects semicolon",
+      "passed": true
+    },
+    {
+      "name": "UTF-8 BOM and Romanian diacritics decode",
+      "passed": true
+    },
+    {
+      "name": "quoted delimiter survives file input",
+      "passed": true
+    },
+    {
+      "name": "escaped quote survives file input",
+      "passed": true
+    },
+    {
+      "name": "UTF-16LE BOM TSV decodes",
+      "passed": true
+    },
+    {
+      "name": "UTF-16BE BOM CSV decodes",
+      "passed": true
+    },
+    {
+      "name": "ragged rows are padded to the maximum width",
+      "passed": true
+    },
+    {
+      "name": "ragged padding loses no extra values",
+      "passed": true
+    },
+    {
+      "name": "ragged input displays a warning",
+      "passed": true
+    },
+    {
+      "name": "malformed replacement file does not destroy current data",
+      "passed": true
+    },
+    {
+      "name": "malformed file error is visible",
+      "passed": true
+    },
+    {
+      "name": "unsupported extension is rejected",
+      "passed": true
+    },
+    {
+      "name": "files over 8 MiB are rejected without data loss",
+      "passed": true
+    },
+    {
+      "name": "UTF-16 without BOM is rejected honestly without data loss",
+      "passed": true
+    },
+    {
+      "name": "drag-over styling and a real DataTransfer drop load the file",
+      "passed": true
+    },
+    {
+      "name": "single-column TXT uses a safe delimiter fallback",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "cell textarea edits the model",
+      "passed": true
+    },
+    {
+      "name": "editing marks data modified",
+      "passed": true
+    },
+    {
+      "name": "undo restores the previous cell value",
+      "passed": true
+    },
+    {
+      "name": "redo reapplies the cell value",
+      "passed": true
+    },
+    {
+      "name": "reset does not happen without confirmation",
+      "passed": true
+    },
+    {
+      "name": "confirmed reset restores original data",
+      "passed": true
+    },
+    {
+      "name": "column rename updates the model",
+      "passed": true
+    },
+    {
+      "name": "column reorder changes display order without changing cell storage",
+      "passed": true
+    },
+    {
+      "name": "a column can be hidden",
+      "passed": true
+    },
+    {
+      "name": "add column extends every row",
+      "passed": true
+    },
+    {
+      "name": "delete column removes its cells and reindexes",
+      "passed": true
+    },
+    {
+      "name": "add row appends an empty row",
+      "passed": true
+    },
+    {
+      "name": "row delete removes exactly one row",
+      "passed": true
+    },
+    {
+      "name": "search filters across all columns with diacritics",
+      "passed": true
+    },
+    {
+      "name": "clear search restores all rows",
+      "passed": true
+    },
+    {
+      "name": "removing header turns it into a data row",
+      "passed": true
+    },
+    {
+      "name": "former header values survive as data",
+      "passed": true
+    },
+    {
+      "name": "first data row can become the header again",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "numeric-aware sort orders 1, 2, 10",
+      "passed": true
+    },
+    {
+      "name": "second sort click reverses order",
+      "passed": true
+    },
+    {
+      "name": "third sort click clears sorting",
+      "passed": true
+    },
+    {
+      "name": "pagination limits the rendered rows",
+      "passed": true
+    },
+    {
+      "name": "last pagination page has the remainder",
+      "passed": true
+    },
+    {
+      "name": "next is disabled on the last page",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "trim reports the exact four changed cells",
+      "passed": true
+    },
+    {
+      "name": "trim changes leading and trailing whitespace",
+      "passed": true
+    },
+    {
+      "name": "dedupe removes the two exact duplicate rows after trim",
+      "passed": true
+    },
+    {
+      "name": "nine rows remain after dedupe",
+      "passed": true
+    },
+    {
+      "name": "empty-row cleaner removes the blank record",
+      "passed": true
+    },
+    {
+      "name": "eight rows remain after all cleanup",
+      "passed": true
+    },
+    {
+      "name": "column-scoped literal replacement updates the matching city",
+      "passed": true
+    },
+    {
+      "name": "replacement does not alter unrelated columns",
+      "passed": true
+    },
+    {
+      "name": "repeated replacement honestly reports no match",
+      "passed": true
+    },
+    {
+      "name": "empty find text is rejected",
+      "passed": true
+    },
+    {
+      "name": "reset restores pre-cleanup data",
+      "passed": true
+    },
+    {
+      "name": "undo after reset returns to the cleaned data",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "find and replace treats dot as literal text, not a regex",
+      "passed": true
+    },
+    {
+      "name": "duplicate removal is exact and case-sensitive",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "CSV export bytes quote delimiters, quotes and embedded CRLF correctly",
+      "passed": true
+    },
+    {
+      "name": "CSV export never overwrites the original filename",
+      "passed": true
+    },
+    {
+      "name": "optional UTF-8 BOM is present in exported bytes",
+      "passed": true
+    },
+    {
+      "name": "tab export uses TSV extension and delimiter",
+      "passed": true
+    },
+    {
+      "name": "JSON preserves newlines and string values",
+      "passed": true
+    },
+    {
+      "name": "JSON makes duplicate and empty headers unique",
+      "passed": true
+    },
+    {
+      "name": "view export applies search and visible columns",
+      "passed": true
+    },
+    {
+      "name": "the last visible column cannot be hidden",
+      "passed": true
+    },
+    {
+      "name": "full export includes hidden columns and rows outside the filter",
+      "passed": true
+    },
+    {
+      "name": "header-only CSV export is valid with zero data rows",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "manual session is stored locally",
+      "passed": true
+    },
+    {
+      "name": "file data is not automatically restored on reload",
+      "passed": true
+    },
+    {
+      "name": "saved session is listed after reload",
+      "passed": true
+    },
+    {
+      "name": "manual restore recovers the edited session",
+      "passed": true
+    },
+    {
+      "name": "only three local sessions are retained",
+      "passed": true
+    },
+    {
+      "name": "confirmed session delete updates localStorage",
+      "passed": true
+    },
+    {
+      "name": "oversized session is rejected honestly",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "corrupted session storage does not break initialization",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "system dark preference is followed initially",
+      "passed": true
+    },
+    {
+      "name": "html lang switches to ro",
+      "passed": true
+    },
+    {
+      "name": "visible heading translates to ro",
+      "passed": true
+    },
+    {
+      "name": "meta description translates to ro",
+      "passed": true
+    },
+    {
+      "name": "Open Graph title translates to ro",
+      "passed": true
+    },
+    {
+      "name": "JSON-LD translates to ro",
+      "passed": true
+    },
+    {
+      "name": "install component translates to ro",
+      "passed": true
+    },
+    {
+      "name": "html lang switches to sr-latn",
+      "passed": true
+    },
+    {
+      "name": "visible heading translates to sr-latn",
+      "passed": true
+    },
+    {
+      "name": "meta description translates to sr-latn",
+      "passed": true
+    },
+    {
+      "name": "Open Graph title translates to sr-latn",
+      "passed": true
+    },
+    {
+      "name": "JSON-LD translates to sr-latn",
+      "passed": true
+    },
+    {
+      "name": "install component translates to sr-latn",
+      "passed": true
+    },
+    {
+      "name": "html lang switches to sr-cyrl",
+      "passed": true
+    },
+    {
+      "name": "visible heading translates to sr-cyrl",
+      "passed": true
+    },
+    {
+      "name": "meta description translates to sr-cyrl",
+      "passed": true
+    },
+    {
+      "name": "Open Graph title translates to sr-cyrl",
+      "passed": true
+    },
+    {
+      "name": "JSON-LD translates to sr-cyrl",
+      "passed": true
+    },
+    {
+      "name": "install component translates to sr-cyrl",
+      "passed": true
+    },
+    {
+      "name": "html lang switches to en",
+      "passed": true
+    },
+    {
+      "name": "visible heading translates to en",
+      "passed": true
+    },
+    {
+      "name": "meta description translates to en",
+      "passed": true
+    },
+    {
+      "name": "Open Graph title translates to en",
+      "passed": true
+    },
+    {
+      "name": "JSON-LD translates to en",
+      "passed": true
+    },
+    {
+      "name": "install component translates to en",
+      "passed": true
+    },
+    {
+      "name": "manual theme toggle works",
+      "passed": true
+    },
+    {
+      "name": "language and manual theme persist",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "dark install button text has WCAG AA contrast",
+      "passed": true
+    },
+    {
+      "name": "dark install button uses the application panel color",
+      "passed": true
+    },
+    {
+      "name": "dark primary file button has WCAG AA contrast",
+      "passed": true
+    },
+    {
+      "name": "dark active language has WCAG AA contrast",
+      "passed": true
+    },
+    {
+      "name": "dark install dialog text has WCAG AA contrast",
+      "passed": true
+    },
+    {
+      "name": "light install button text keeps WCAG AA contrast",
+      "passed": true
+    },
+    {
+      "name": "light primary file button keeps WCAG AA contrast",
+      "passed": true
+    },
+    {
+      "name": "light active language keeps WCAG AA contrast",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "320px page has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320px exposes no hidden controls",
+      "passed": true
+    },
+    {
+      "name": "320px visible controls meet 44px targets: []",
+      "passed": true
+    },
+    {
+      "name": "320px table keeps wide data inside its own scroll region",
+      "passed": true
+    },
+    {
+      "name": "320px ro has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "320px sr-latn has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "320px sr-cyrl has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "320px en has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "390px page has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390px exposes no hidden controls",
+      "passed": true
+    },
+    {
+      "name": "390px visible controls meet 44px targets: []",
+      "passed": true
+    },
+    {
+      "name": "390px table keeps wide data inside its own scroll region",
+      "passed": true
+    },
+    {
+      "name": "390px ro has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "390px sr-latn has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "390px sr-cyrl has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "390px en has no overflow with every panel open",
+      "passed": true
+    },
+    {
+      "name": "mobile tap focuses an editable cell",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "768px page has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "768px exposes no hidden controls",
+      "passed": true
+    },
+    {
+      "name": "768px visible controls meet 44px targets: []",
+      "passed": true
+    },
+    {
+      "name": "768px table keeps wide data inside its own scroll region",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "1440px page has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1440px exposes no hidden controls",
+      "passed": true
+    },
+    {
+      "name": "1440px visible controls meet 44px targets: []",
+      "passed": true
+    },
+    {
+      "name": "1440px table keeps wide data inside its own scroll region",
+      "passed": true
+    },
+    {
+      "name": "online PWA page returns 200",
+      "passed": true
+    },
+    {
+      "name": "service worker controls the page",
+      "passed": true
+    },
+    {
+      "name": "v3 app shell is cached",
+      "passed": true
+    },
+    {
+      "name": "manifest and four icons are available",
+      "passed": true
+    },
+    {
+      "name": "offline reload is a service-worker 200",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "editing and JSON export work offline",
+      "passed": true
+    },
+    {
+      "name": "offline workflow has no non-service-worker HTTP responses",
+      "passed": true
+    },
+    {
+      "name": "install help dialog opens",
+      "passed": true
+    },
+    {
+      "name": "install help covers mobile and desktop",
+      "passed": true
+    },
+    {
+      "name": "install help cannot force installation",
+      "passed": true
+    },
+    {
+      "name": "install help closes",
+      "passed": true
+    },
+    {
+      "name": "GitHub Pages subpath serves the application",
+      "passed": true
+    },
+    {
+      "name": "service worker scope stays inside CSV-Desk",
+      "passed": true
+    },
+    {
+      "name": "manifest start and scope resolve to the deployment subpath",
+      "passed": true
+    },
+    {
+      "name": "subpath offline reload is served by its service worker",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "subpath offline JSON export works",
+      "passed": true
+    },
+    {
+      "name": "sample has eleven data rows",
+      "passed": true
+    },
+    {
+      "name": "sample has five columns",
+      "passed": true
+    },
+    {
+      "name": "file protocol opens the editor and sample without a server",
+      "passed": true
+    },
+    {
+      "name": "file protocol makes no false service-worker claim",
+      "passed": true
+    },
+    {
+      "name": "page returns HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "markup-like data is shown only as textarea text",
+      "passed": true
+    },
+    {
+      "name": "markup-like data creates no image element",
+      "passed": true
+    },
+    {
+      "name": "prototype-like headers do not pollute objects",
+      "passed": true
+    },
+    {
+      "name": "spreadsheet formula remains unexecuted text in JSON",
+      "passed": true
+    },
+    {
+      "name": "zero unexpected console errors or warnings: []",
+      "passed": true
+    },
+    {
+      "name": "zero third-party runtime requests: []",
+      "passed": true
+    }
+  ],
+  "console": [],
+  "third_party": [],
+  "artifacts": {
+    "csv_sha256": "5d4279c1b9f4daac87a170c1c944b1dac937b35f66fff99323e2f6f6fba38bdf",
+    "json_sha256": "23e3d91a43b53b0289a1e5ad0bfd80cdb51c5d9da1794c4a7f1dcef7ceefc0e9"
+  }
+}
